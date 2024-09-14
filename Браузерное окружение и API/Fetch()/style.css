@@ -1,0 +1,20 @@
+.wrapper {
+    /* height: 600px; */
+    border: 1px solid #000;
+}
+.inner {
+    /* height: 500px; */
+    border: 1px solid #000;
+}
+.btn {
+    padding: 20px 100px;
+    border: none;
+    box-shadow: 5px 5px 3px #000;
+    margin: 25px 0px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn:active {
+    box-shadow: 0 0 3px #000;
+}

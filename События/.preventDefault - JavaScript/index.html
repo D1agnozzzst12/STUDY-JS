@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>preventDefault() - JavaScript</title>
+</head>
+<body>
+    
+    <a href="https://www.google.com" class="link-item">link item</a>
+
+    <div>
+        <button class="on-default">Приминить preventDefault</button>
+        <button class="off-default">Отменить preventDefault</button>
+    </div>
+
+    <div class="block-text"></div>
+
+
+
+    <form>
+        <input type="text" name="input" placeholder="Нажми на меня">
+    </form>
+
+
+
+    <form class="form-2">
+        <label for="promocode">Промокод</label>
+        <input 
+        type="text"
+        id="promocode"
+        placeholder="WIN-123"
+        required
+        >
+        <button type="submit">Приминить</button>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

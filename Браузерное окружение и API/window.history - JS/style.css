@@ -1,0 +1,19 @@
+.button {
+    color: #fff;
+    background: #333;
+    padding: 5px 50px;
+    margin: 25px;
+    border: none;
+    box-shadow: 3px 3px 2px #000;
+    border-radius: 5px;
+}
+.button:active {
+    box-shadow: 0 0 5px #000;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}

@@ -1,0 +1,38 @@
+body, html {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.block {
+	background: aqua;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+
+.button {
+	padding: 10px 50px;
+	background: orange;
+	border: none;
+	border-radius: 7px;
+	margin-top: 20px;
+	transition: all 0.3s ease;
+	box-shadow: 4px 4px 2px #333;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.button:hover {
+	background: blue;
+	color: #fff;
+}
+.button:active {
+	box-shadow: 0 0 10px #333;
+}
+

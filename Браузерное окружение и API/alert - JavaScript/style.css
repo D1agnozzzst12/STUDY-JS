@@ -1,0 +1,23 @@
+.container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: #0408fd;
+    color: #fff;
+    font-family: monospace;
+    padding: 20px 100px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 1px black;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 2px black; 
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>.focus - JavaScript</title>
+</head>
+<body>
+    
+
+
+    
+    <textarea id="modal-window"></textarea> <br>
+    <button id="open-modal-button">Open modal window</button>
+
+    <form action="/apply" method="POST">
+        <label>
+            Ваше имя:
+            <input type="text" name="name">
+        </label>
+
+
+        <label>
+            Email:
+            <input type="email" name="email" id="email">
+        </label>
+
+
+        <button type="submit">Подать заявку</button>
+        
+    </form>
+
+
+
+    <form style="margin-top: 100px;" action="/ilishan">
+        <label for="userName">Your name:</label>
+        <input 
+        type="text"
+        name="userName"
+        placeholder="Name"
+        id="inputName"
+        autofocus
+        > <br>
+
+        <label for="userLastName">Your last name:</label>
+        <input 
+        type="text"
+        name="userLastName"
+        placeholder="Last Name"
+        id="inputUserLastName"
+        ><br>
+
+        <label for="userMiddleName">Your middle name:</label>
+        <input 
+        type="text"
+        name="userMiddleName"
+        placeholder="Middle Name"
+        id="inputUserMiddleName"
+        ><br>
+
+        <label for="userEmail">Your email:</label>
+        <input 
+        type="email"
+        name="userEmail" 
+        id="inputUserEmail"
+        placeholder="Email"
+        ><br>
+
+        <label for="userEmailPassword">Your email password:</label>
+        <input
+        type="password"
+        name="userEmailPassword"
+        placeholder="Password"
+        id="inputUserEmailPassword"
+        ><br>
+        
+    </form>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

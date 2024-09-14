@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>.forms - JavaScript</title>
+</head>
+<body>
+    
+    <form>
+        <label for="promocode">Промокод</label>
+        <input
+            type="text" 
+            name="promocode" 
+            placeholder="WIN-1234"
+            required
+        >
+        <button type="submit">Приминить</button>
+    </form>
+
+
+
+    <form id="subscriptionFormId">
+        <label for="email">Почта</label>
+        <input 
+            type="email" 
+            name="email" 
+            id="email"
+            placeholder="email@example.com"
+            required
+        >
+        <button type="submit">Подписаться</button>
+
+    </form>
+
+
+
+    <form id="loginFormId" name="loginFormName">
+        <label for="phone">Ваш номер</label>
+        <input 
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder='776-2323'
+        required
+        >
+        <button type="submit">
+            Отправить код подтверждения
+        </button>
+    </form>
+
+
+
+
+    <form name="myFormName">
+        <label for="userName">Name:</label>
+        <input 
+        type="text" 
+        name="userName" 
+        id="inputUserName"
+        placeholder="Name"
+        >
+        <label for="userLastName">Last Name:</label>
+        <input 
+        type="text"
+        name="userLastName"
+        id="inputUserLastName"
+        placeholder="Last Name"
+        >
+        <label for="userMiddleName">Middle Name:</label>
+        <input 
+        type="text"
+        name="userMiddleName"
+        id="unputUserMiddleName"
+        placeholder="Middle Name"
+        >
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

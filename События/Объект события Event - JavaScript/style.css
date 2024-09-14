@@ -1,0 +1,19 @@
+.element {
+    padding: 25px;
+    border: 2px solid blue;
+    width: 50%;
+}
+
+.button {
+    margin-top: 100px;
+    height: 150px;
+    width: 400px;
+    border: 2px solid yellow;
+    background: transparent;
+   
+}
+
+span {
+    background: gray;
+    padding: 25px;
+}

@@ -1,0 +1,11 @@
+#target {
+    height: 100px;
+    background: aqua;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#target.red {
+    background: red;
+}

@@ -1,0 +1,38 @@
+.block {
+	height: 300px;
+	width: 500px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.container {
+	border: 1px solid #000;
+	margin-top: 100px;
+	display: flex;
+/*	justify-content: space-evenly;*/
+	height: 500px;
+	background: #333;
+}
+
+
+.block-2 {
+/*	border: 1px solid #000;*/
+	width: 50%;
+	margin-right: 50px;
+	border-radius: 0px 250px 250px 0px;
+	background: blue;
+
+}
+
+.block-text {
+	display: flex;
+	align-items: center;
+	color: blue;
+	font-size: 20px;
+	font-family: monospace;
+}

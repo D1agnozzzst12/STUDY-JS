@@ -1,0 +1,66 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
+.section {
+    min-height: 1000px;
+    background-color: wheat;
+}
+
+.section-2 {
+    background: aqua;
+}
+
+.section-3 {
+    background: crimson;
+}
+
+.section-4 {
+    background: navy;
+}
+
+.section-5 {
+    background: red;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+
+.nav_list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav_link--active {
+    color: rgb(255, 255, 255);
+    background: #000000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

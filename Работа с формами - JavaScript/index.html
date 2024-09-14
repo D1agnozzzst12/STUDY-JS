@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Работа с формами - JavaScript</title>
+</head>
+<body>
+    <form name="form1">
+        <input type="text" name="input1" value="1">
+        <input type="text" name="input2" value="2">
+        <input type="radio" name="radioBtn" value="btn1" checked>
+        <input type="radio" name="radioBtn" value="btn2">
+        <input type="radio" name="radioBtn" value="btn3">
+
+        <fieldset name="myFieldset">
+            <legend>Title</legend>
+            <input type="password" name="password">
+        </fieldset>
+
+        <select name="mySelect">
+            <option value="item1" selected>Element 1</option>
+            <option value="item2">Element 2</option>
+            <option value="item3">Element 3</option>
+        </select>
+
+        <select name="mySelect2" multiple>
+            <option value="item4" selected>Element 1</option>
+            <option value="item5" selected>Element 2</option>
+            <option value="item6">Element 3</option>
+        </select>
+    </form>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

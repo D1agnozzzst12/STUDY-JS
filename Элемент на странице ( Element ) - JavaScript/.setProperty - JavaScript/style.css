@@ -1,0 +1,12 @@
+.one {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    transition: background .2s ease-in;
+    cursor: pointer;
+}
+
+
+.two {
+    background: gray;
+}

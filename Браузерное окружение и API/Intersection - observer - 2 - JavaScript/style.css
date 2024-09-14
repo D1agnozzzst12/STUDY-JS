@@ -1,0 +1,20 @@
+#target {
+    width: 150px;
+    height: 150px;
+    background: #1eeacb;
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+#target span {
+    margin: auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+}
+
+#target.red {
+    background: red;
+}
